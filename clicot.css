@@ -1,0 +1,189 @@
+@charset "UTF-8";
+body {
+    background-color: #000000;
+    
+}
+div#principal {
+    padding: 10px 10px 10px 10px;
+    background-color: #4B0082	;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+    margin: 15px
+}
+hgroup#titulo h1 {
+    color: white;
+    text-indent: 20px;
+    text-shadow: goldenrod 4px 4px 5px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+header#cabecalho {
+    border-bottom: white solid;
+    height: 130px;
+}
+/* config fotos */
+img#carro {
+    width: 160px;
+    margin-left: 30px;
+    height: 100px;
+    margin-top: -20px;
+}
+img#clicot {
+    width: 350px;
+    height: auto;
+}
+figure.clicot {
+    position: relative;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+}
+figcaption#subtitulo {
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.349);
+    opacity: 0;
+    position: absolute;
+    top: 273px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+figure.clicot:hover figcaption#subtitulo {
+    opacity: 1;
+    transition: 0.5s;
+}
+img#dima {
+    width: 100px;
+    float: right;
+    position: absolute;
+    margin-left: 10px;
+}
+img#c2 {
+    width: 100px;
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -250px;
+}
+img#rank3 {
+    width: 100px;
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -130px;
+}
+
+/**/
+h2 {
+    color: white;
+    font-family: sans-serif;
+}h3#d2{
+    color: white;
+    margin-left: 500px;
+    margin-top: -340px;
+    position: absolute;
+}
+h3#c2 {
+    color: white;
+    margin-left: 500px;
+    margin-top: -225px;
+    position: absolute;
+}
+h3#c22 {
+    color: white;
+    margin-left: 500px;
+    margin-top: -105px;
+}
+h2 {
+    margin-left: 15px;
+}
+h1 {
+    position: relative;
+    margin-top: 100px;
+    text-indent: 10px;
+    color: white;
+    text-shadow: goldenrod 4px 4px 6px;
+    font-family: sans-serif;
+}
+ul#lista {
+    margin-top: 40px;
+    position: absolute;
+    color: white;
+}
+li {
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+/* Periféricos */
+table#peri {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+table#peri caption {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+table#peri td.com {
+    padding: 5px;
+    background-color: rgba(46, 95, 107, 0.863);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+}
+table#peri td.fim {
+    padding: 5px;
+    background-color: rgba(32, 105, 87, 0.767);
+    border-radius: 10px;
+    text-indent: 10px;
+}
+/* Roda pé */
+footer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-top: white solid;
+}
+a#insta {
+    color: white;
+    text-decoration: none;
+}
+a#link {
+    color: white;
+    text-decoration: none;
+}
+/* Section */
+section#conteudo{
+    margin-top: -80px;
+} 
+/* navegação */ 
+nav#navegação ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -150px;
+    left: 600px;
+}
+nav#navegação li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: white 2px 2px 5px;
+    color: white;
+}
+nav#navegação li:hover {
+    background-color: #1E90FF;
+    transition: 0.5s;
+}
+nav#navegação a {
+    text-decoration: none;
+    color: white;
+}
